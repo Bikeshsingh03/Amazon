@@ -1,0 +1,300 @@
+*{
+    /* Firstly, We will give 0px margin because we don't need any margin between box */
+    margin:0px;
+    /* We already decided which font we will use in the project.  */
+    font-family:Arial;
+    /* Border-box will used for without any extra space in box  */
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color:#0f1111;
+    /* color are use for fixed the text color. */
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+/* Continer of logo */
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+/* main logo */
+.logo{
+    background-image: url("amazon_logo.png");
+    /* background-size are use for murge all photo in box */
+    background-size:cover;
+    height:50px;
+    width:100px;
+}
+/* Box2 */
+ /* It is sencond name of navbar  */
+.border{
+    border:1.5px solid transparent;  
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-first{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 22px;   
+}
+.add-sec{
+    font-size: 14px;
+    color:#ffffff;   
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+
+/* BOX-3 */
+.nav-search{
+    display: flex;
+    background-color:#0f1111;
+    width:900px;
+    height:40px;
+    border-radius: 3px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    /* All element will come in center */
+    text-align: center;
+    /* It will only do curve the left top & bottom  */
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border:1px;
+}
+.search-input{
+    width:800px;
+    border:none;
+    font-size: 1rem;
+}
+.Search-icon{
+    width:45px;
+    display: flex;
+    /* Element will come veticaly center */
+    justify-content: center;
+    /* Element will come horizontal center */
+    align-items: center;
+    background-color: #febd68;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    color:#0f1111;
+}
+/* BOX-4 */
+.nav-place{
+    height:40px;
+    width:55px;
+    display: flex;
+    align-items: center;
+}
+.nav-flag{
+    height:21px;
+    width:16px;
+    background-size: cover;
+}
+.place-select{
+    background-color: #0f1111;
+    color:#ffffff;
+    border: none;
+    font-size: 12px;   
+}
+
+/* BOX-5 */
+span{
+    font-size:12px;
+}
+.nav-account{
+    font-size:14px;
+    font-weight:700;
+}
+
+/* BOX-6 */
+.nav-order{
+    font-size:14px;
+    font-weight: 700;
+}
+ 
+/* BOX-7 */
+.nav-cart i{
+    font-size:28px;
+    
+}
+.nav-cart{
+    width:65px;
+    display: flex;   
+}
+.nav-cart p{
+    margin-top: 16px;
+    font-weight:700;
+}
+
+/* PANEL */
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    color:#ffffff;
+    display: flex;
+    align-items: center; 
+    justify-content: start;
+}
+.Bar{
+    margin-left: 12px;
+    font-weight: bold;
+}
+.panel2{
+    margin-left: 12px;
+}
+.panel3{
+    margin-left: 12px;
+}
+.panel4{
+    margin-left: 12px;
+}
+.panel5{
+    margin-left: 12px;
+}
+.panel6{
+    margin-left: 12px;
+}
+.panel7{
+    margin-left: 12px;
+}
+/* Hero-sectio */
+.hero-section{
+    background-image: url(hero-section.jpg);
+    height:600px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message{
+    background-color: #f5f6f6;
+    color:#0f1111;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.84rem;
+    width:93%;   
+    margin-bottom: 25px;;
+}
+.hero-message a{
+    color: #007185;
+}
+
+/*Shop-Section*/
+.shop-section{
+    display: flex;
+    /* If we have multiple box in one line then wrap property will be change the box they come in second line  */
+    flex-wrap: wrap;
+    /* justify-content: space-evenly are use for equal space between box  */
+    justify-content: space-evenly;
+    background-color:  #F5E1FC;
+}
+.box{
+    /* border:2px solid black; */
+    height:400px;
+    width: 20%;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin: 15px;
+    margin-top: 1rem;
+}
+.box1-img{
+    height:320px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 5px;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p {
+    color: #007185;
+}
+
+/* footer */
+.footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: #ffffff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    height:400px;
+    color:white;
+    font-weight: 1000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ul{
+    margin-top: 20px;;
+}
+ul a{
+    display:block;
+    font-size: 0.85rem;
+    margin-top: 10px; 
+    color:white;  
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    height:70px;
+    border-top:0.5px solid white;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-panel3 button{
+    margin-left: 50px;
+    border: 2px solid white;
+}
+.foot-logo{
+     background-image: url("amazon_logo.png");
+    /* background-size are use for murge all photo in box */
+    background-size:cover;
+    height:50px;
+    width:100px;
+}
+.foot-panel4{
+    height:300px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.foot-panel5{
+    height:60px;
+    color: white;
+    background-color: #222f3d;
+
+}
+.page{
+    color: white;
+}
+
+
+
